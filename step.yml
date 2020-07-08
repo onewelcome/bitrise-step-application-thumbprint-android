@@ -84,6 +84,10 @@ inputs:
       title: App Calculator version
       summary: The version of the Onegini App Calculator to be used
       is_required: true
+      value_options:
+        - "2.1.0"
+        - "2.0.0"
+        - "1.0.0"
   - application_path: $BITRISE_APK_PATH
     opts:
       title: APK path
@@ -94,6 +98,16 @@ inputs:
       title: Temporary path
       summary: The path where the calculator will be downloaded
       is_required: true
+  - is_debug: "no"
+    opts:
+      category: Debug
+      title: "Debug print?"
+      description: |
+        If debug=yes the step will print debug infos about
+        the working dir, tmp file path, exit code, etc.
+      value_options:
+        - "no"
+        - "yes"
 
 outputs:
   - ONEGINI_APP_THUMBPRINT:
