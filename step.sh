@@ -5,6 +5,7 @@ echo "This is 'onegini_artifactory_username': ${onegini_artifactory_username}"
 echo "This is 'onegini_artifactory_password': ${onegini_artifactory_password}"
 echo "This is 'calculator_version': ${calculator_version}"
 echo "This is 'application_path': ${application_path}"
+echo "This is 'temporary_path': ${temporary_path}"
 
 result="0123456789ABCDEF"
 

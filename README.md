@@ -1,7 +1,15 @@
 # Onegini Application Thumbprint Android
 
-TBD
+The step is dedicated for Onegini Mobile Security Platform users, who use the Onegini Mobile SDK iOS in their Android apps.
 
+The step calculates the application's thumbprint that is necessary to properly setup a mobile app project. The calculated
+value is returned in the ONEGINI_APP_THUMBPRINT so that it can be used by the developers using separate steps.
+
+The step requires you to have the access to the Onegini's Artifactory repository where Onegini SDKs and application
+thumbprint calculators can be found. Because of that the step requires you to provide a proper Artifactory credentials
+(username and password) as inputs.
+
+For iOS apps please find a dedicated "Onegini Application Thumbprint iOS" step.
 
 ## How to use this Step
 
