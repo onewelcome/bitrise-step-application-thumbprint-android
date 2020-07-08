@@ -85,7 +85,9 @@ inputs:
       summary: The version of the Onegini App Calculator to be used
       description: |
         Please use the old "1.00.00" version of the calculator for Android SDK 8.3.0 and older.
+
         Please use the old "1.00.00" version also for Android SDK 9.0.0 - 9.1.0.
+        
         Please use the latest "2.1.0" version of the calculator for Android SDK 8.3.0 and never, except the versions 9.0.0 - 9.1.0
       is_required: true
       value_options:
