@@ -11,7 +11,7 @@ if [[ "${is_debug}" == "yes" ]] ; then
 fi
 
 package_name_param=""
-if [ ! -z "${bundle_id}" ] ; then
+if [ ! -z "${package_name}" ] ; then
   package_name_param="-p"
 fi
 
