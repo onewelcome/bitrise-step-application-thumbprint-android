@@ -115,8 +115,9 @@ inputs:
     opts:
       category: Debug
       title: "Package name"
-      summary: In case you would like to calculate the signature 
-        based on the provided package name rather than 
+      summary: Calculate the signature based on the provided package name.
+      description: |
+        In case you would like to calculate the signature based on the provided package name rather than
         the binary itself please provide package name of your app.
         **This option is less secure since it disables the tampering protection.**
 
