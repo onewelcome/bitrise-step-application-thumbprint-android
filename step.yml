@@ -120,6 +120,7 @@ inputs:
         In case you would like to calculate the signature based on the provided package name rather than
         the binary itself please provide package name of your app.
         **This option is less secure since it disables the tampering protection.**
+        To disable this option leave the field empty.
 
 outputs:
   - ONEGINI_APP_THUMBPRINT:
